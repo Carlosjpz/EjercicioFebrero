@@ -1,0 +1,17 @@
+Os mando el ejercicio de UiPath. Consiste en lo siguiente:
+
+- Leer el fichero “proyectos.xlsx” que os adjunto, validando que no haya en él proyectos repetidos. *Opcional: validar formato (formato correcto: XX123456)*
+
+- De cada proyecto, traducir su tipo y descripción y crear un archivo en carpeta output con formato nombre: code_project.xlsx, dentro a su vez de una carpeta con la fecha de ejecución (formato dd_MM_yyyy). Este archivo debe contener las mismas columnas, pero con la información únicamente de ese proyecto y traducida.
+
+- Si el proyecto es de tipo Research, hay que calcularle un presupuesto, de la siguiente manera y redondeando a dos decimales el resultado:
+•	AL: 120.000 / nº meses desde septiembre 22
+•	AR: 120.000 / nº meses desde junio 22
+•	UL: 170.000 / nº meses desde abril 22
+•	UR: 170.000 / nº meses desde febrero 22
+
+- Por último, leer la carpeta donde se guardan los ficheros y sacar un reporte con el listado de ficheros por su nombre y su presupuesto en una columna contigua (si no tuviera, indicar "N/A")
+
+Hacedlo en un único step, con la plantilla de reframework que prefiráis (la oficial o la de Atento). Cuando lo tengáis, me vais avisando por correo. No hace falta que me mandéis el código, lo subiremos a un repositorio.
+
+¡Gracias!
